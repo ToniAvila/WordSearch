@@ -1,0 +1,93 @@
+# Comedy Movies - partial
+# Note that this is a subarray of the actual array.
+# Work with this data file first. You will discover
+# that quite a few movies won't be found.
+
+# This puzzle is only 15 rows x 18 columns.
+# You must read in the array size; don't hardwire it.
+
+15 18
+
+#read this matrix into a char array
+SCFRBOBROBERTSLOKL
+TNLESREKCILSYTICRL
+AOEPOBLRUAECHBUDEA
+RITOTHEYOMTOLBATPH
+LCHAIBAONILLAURGEI
+AEKNLULDDGCISLHKLN
+CRRURDBHSAGTEOPLUS
+LOTCLULHLLBPCRAPLA
+UMSKIROPOULALPEAAK
+EHNSAHNNSTLASACCEH
+LSOORADTEHSHBKCROA
+EUOUFMEMECOHETHEER
+SRMPARTRBTAROSAASV
+SLEISTOOTHERUTLESE
+NATTAHNAMSEYSLSSMY
+
+# For this first step in your program development and
+# testing, use this list of movie titles. Note that
+# this is only a partial list.
+
+#The first four of these are merely for testing purposes.
+#You should delete them once you get your program working.
+SCFR
+STAR
+SNEO
+LRDA
+
+#Movie Titles to Search For
+ALL OF ME
+ANNIE HALL
+BABE
+BEING THERE
+BIG
+BOB ROBERTS
+BULL DURHAM
+CARS
+CATBALLOU
+CITYSLICKERS
+CLERKS
+CLUELESS
+DUCK SOUP
+ELECTION
+FLETCH
+GHOSTBUSTERS
+HAPPY GILMORE
+HARVEY
+HOLIDAY
+HOTSHOTS
+LEGALLY BLONDE
+LIAR LIAR
+LOCAL HERO
+MALLRATS
+MANHATTAN
+MEATBALLS
+MOONSTRUCK
+NAPOLEAN DYNAMITE
+OH GOD
+PLAZA SUITE
+RAISING ARIZONA
+REPO MAN
+RUSHMORE
+SHREK
+SLACKER
+SLAP SHOT
+SLEEPER
+THE RUTLES
+TOOTSIE
+TRADING PLACES
+UNCLE BUCK
+YES MAN
+
+#This movie won't be found.
+zzzz
+
+
+#this one should be found twice
+RUR
+
+#this one definitely should NOT be found
+zzzzz
+
+#end of file
